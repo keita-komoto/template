@@ -2,6 +2,10 @@
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 	<constant name="struts.devMode" value="true" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8cbf63c03156806f52c71177d254ac904df71ff
 	<package name="com.diworksdev.template.action" extends="struts-default">
 		<!-- HomeAction -->
 		<action name="HomeAction" class="com.diworksdev.template.action.HomeAction" method="execute">
